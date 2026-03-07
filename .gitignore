@@ -79,3 +79,5 @@ coverage.xml
 
 # secrets
 *.pem
+
+*.db
