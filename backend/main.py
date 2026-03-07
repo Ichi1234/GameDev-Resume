@@ -1,6 +1,9 @@
 from fastapi import FastAPI
-from app.presentation.routers import test_router
+from app.infrastructure.database import engine, Base
+from app.presentation.routers import role_router
 
 app = FastAPI()
 
-app.include_router(test_router.router)
+Base.metadata.create_all(bind=engine)
+
+app.include_router(role_router.router)
