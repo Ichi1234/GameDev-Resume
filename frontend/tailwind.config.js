@@ -19,7 +19,7 @@ module.exports = {
         secondary: "#ce770d",
         cardbackground: "#272321",
         textmaincolor: "#cec5b5",
-        textdarkcolor: "#5d5246",
+        textsubcolor: "#847869",
         background: "#110f0e",
         buttoncolor: "#f29e0d"
       },

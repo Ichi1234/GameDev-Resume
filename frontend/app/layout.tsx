@@ -52,7 +52,7 @@ export default function RootLayout({
       <body className={`${cinzel.variable} ${rajdhani.variable} bg-background text-textmaincolor`}>
         <Navbar profile={MockOwnerProfile} />
         <main className="min-h-screen bg-background">{children}</main>
-        <Footer />
+        <Footer profile={MockOwnerProfile} />
       </body>
     </html>
   );
