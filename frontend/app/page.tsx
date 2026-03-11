@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <section id="hero" className="flex flex-col items-center bg-background justify-center text-center min-h-screen">
+      <section id="hero" className="flex flex-col items-center justify-center text-center min-h-screen">
         <h1 className="font-title text-5xl text-primary">
           Banana Lord
         </h1>
