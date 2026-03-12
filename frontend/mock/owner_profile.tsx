@@ -5,7 +5,11 @@ export const MockOwnerProfile: OwnerProfile = {
   user_id: 1,
   role_id: 1,
   portfolio_title: "Kasidet Uthaiwiwatkul",
-  main_quote: "May my game bring you challenges and difficulties",
+  main_quote: (
+    <>
+      May my <span className="text-primary">game</span> bring you <br/>challenges and difficulties
+    </>
+  ),
   sub_quote:
     "Crafting hardcore experiences through mechanics, systems, and immersive world design.",
   introduction:
