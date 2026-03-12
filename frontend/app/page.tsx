@@ -17,9 +17,9 @@ export default function Home() {
           Indie Game Developer
         </p>
 
-        <p className="uppercase font-title font-bold text-lg sm:text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl xl:leading-18 2xl:leading-20">
+        <h1 className="uppercase font-title font-bold text-lg sm:text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl xl:leading-18 2xl:leading-20">
           {profile.main_quote}
-        </p>
+        </h1>
 
         <p className="font-body text-[0.55rem] sm:text-xs xl:text-lg text-textmaincolor mt-4">
           {profile.sub_quote}
@@ -30,8 +30,14 @@ export default function Home() {
         </a>
       </section>
 
-      <section id="games" className="min-h-screen">
-        <h2 className="text-primary text-3xl">Games</h2>
+      <section id="games" className="relative py-28 flex flex-col gap-y-4 items-center min-h-screen">
+        <div className="absolute left-1/2 top-0 -translate-x-1/2 mb-4 w-px h-20 bg-linear-to-t from-primary/30 to-transparent"></div>
+        
+        <p className="text-textsubcolor sm:text-xs xl:text-sm tracking-[0.35em]">PORTFOLIO</p>
+
+        <h2 className="font-title font-bold text-4xl">My <span className="text-primary">Games</span></h2>
+
+        <div></div>
       </section>
 
       <section id="about" className="min-h-screen">
