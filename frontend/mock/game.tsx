@@ -12,6 +12,7 @@ export const MockGamesData: Game[] = [{
   download_path: "yes",
   start_date: "2026-01-17",
   status: "inprogress",
+  type: "Experimental Game",
   tags: ["2D", "Action", "Single Player"],
   platforms: ["PC"],
   photos: ["AAA"],

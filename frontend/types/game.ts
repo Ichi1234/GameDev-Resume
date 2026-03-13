@@ -11,6 +11,7 @@ export type Game = {
   title: string
   description: React.ReactNode
   download_path: string
+  type: string
   start_date: string
   release_date?: string
   status: string
