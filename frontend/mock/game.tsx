@@ -43,6 +43,7 @@ export const MockGamesData: Game[] = [
     download_path: "",
     cover_img_path: "",
     start_date: "2026-02-04",
+    release_date: "2026-01-26",
     status: "completed",
     type: "Retro Game",
     tags: ["2D", "Retro", "Rogue-like", "Single Player"],

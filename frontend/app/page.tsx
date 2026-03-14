@@ -13,7 +13,7 @@ export default function Home() {
       <section
         id="hero"
         className="flex flex-col items-center justify-center
-         text-center min-h-screen tracking-widest gap-4 bg-cover opa bg-center bg-[url('/header_bg.png')] "
+         text-center min-h-screen tracking-widest gap-4 bg-cover opa bg-center bg-[url('/img/header_bg.png')] "
       >
         
         <p className="uppercase text-[0.6rem] sm:text-xs xl:text-lg tracking-[0.35em]">
@@ -40,9 +40,12 @@ export default function Home() {
 
         <h2 className="font-title font-bold text-4xl">My <span className="text-primary">Games</span></h2>
 
-        {games.map((game) => (
-          <GameCard key={game.id} game={game}/>
-        ))}
+        <div className="mt-8 flex gap-4">
+          {games.map((game) => (
+            <GameCard key={game.id} game={game}/>
+          ))}
+        </div>
+        
       </section>
 
       <section id="about" className="min-h-screen">
