@@ -14,7 +14,7 @@ export type Game = {
   cover_img_path: string
   type: string
   start_date: string
-  release_date?: string
+  release_date: string
   status: string
   
   tags: string[]
