@@ -4,3 +4,7 @@
 body {
   font-family: var(--font-rajdhani), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
+
+section {
+  padding-inline: calc(var(--spacing) * 4)
+}

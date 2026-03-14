@@ -1,0 +1,27 @@
+type GameChangelog = {
+    id: number,
+    game_id: number,
+    version: number,
+    description: string,
+    date: string
+}
+
+export type Game = {
+  id: number
+  title: string
+  description: React.ReactNode
+  download_path: string
+  cover_img_path: string
+  type: string
+  start_date: string
+  release_date: string
+  status: string
+  
+  tags: string[]
+  platforms: string[]
+
+  photos: string[]
+  videos: string[]
+
+  changelogs: GameChangelog[]
+}
