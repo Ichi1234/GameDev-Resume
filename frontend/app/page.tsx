@@ -40,7 +40,7 @@ export default function Home() {
 
         <h2 className="font-title font-bold text-4xl">My <span className="text-primary">Games</span></h2>
 
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">         
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-6 2xl:gap-8">         
           {games.map((game) => (
             <GameCard key={game.id} game={game}/>
           ))}
